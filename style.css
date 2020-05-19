@@ -1,0 +1,217 @@
+/*whole body structure*/
+body{
+	margin:0px;
+	padding:0px;
+	font-family:Tahoma;
+	
+}
+
+/*fixing position*/
+.mainHeader{
+	background-color:#3F5D9A;
+	margin:0px;
+	padding:25px 0px 4px 0px;
+	border: 1px solid #666;
+}
+.mainHeader:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*total area of header*/
+.mainArea{ 
+	width: 980px;
+	margin: 0 auto;
+}
+/*separating half portion*/
+.onehalf{
+	width: 50%;
+	float: left;
+	
+	
+	}
+/*facebook logo link*/
+a.on{
+        text-decoration: none;
+		font-family:Tahoma;
+		color:white;
+		font-size:40px;
+}
+/*resizing login button section*/	  
+.oneFive{
+	width: 13%;
+    float: left;
+	padding-top:19px;
+	
+}
+/*resizing email and pass section*/
+.twoFive{
+	width: 37%;
+	float: left;
+	
+}
+.twoFiv{
+	width: 70%;
+	float: left;
+	
+}
+/*login button*/
+.su{
+	background-color:#3B5998;
+	font-family:Tahoma;
+	color:white;
+	font-size:14px;
+	 border: 1px solid #1b3360;
+	} 
+.su:hover{
+	background-color:#2e4e89;
+}
+/*forgotten account link*/
+a.lo{
+	   text-decoration: none;
+		font-family:Tahoma;
+		color:#e1e3f2;
+		font-size:12px;
+		padding:0px 2px;
+}
+a.lo:hover{
+	text-decoration: underline;
+}
+/*label of email and password*/  
+.first{
+	color: #fff;
+    font-family:Tahoma;	
+	font-size: 12px;
+}	  
+/*text box of login*/
+.second{
+        padding: 4px 10px;
+        border: 1px solid #666;
+        background:#E8F0FE;
+        color: black;
+font-size: 12px;}
+.heading{
+	font-size:35px;
+	color:#333;
+	margin-top:19px;
+	padding:0;
+}
+.subheading{
+	font-size:20px;
+	color:#333;
+	margin:9px 0px;
+	padding:0;
+}
+
+.sky{
+background-color:#D4D8E8;
+background-image: linear-gradient(white,#D4D8E8 );
+}
+.sky:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.third{
+        padding: 4px 10px;
+        border: 1px solid #7a96c9;
+        background:white;
+        color: black;
+        font-size: 18px;
+		border-radius: 4px;
+		width:85%;
+		margin:10px 5px 10px 0px;
+		}
+		
+.forth{
+	    padding: 4px 10px;
+        border: 1px solid #7a96c9;
+        background:white;
+        color: black;
+        font-size: 18px;
+		border-radius: 4px;
+		width:68.5%;
+		margin:10px 0px;
+	
+}
+.BG{
+	color:#90949C;
+}
+.para{
+	color:#83868c;
+	font-size:12px;
+}
+a.uline{
+	text-decoration: none;
+		font-family:Tahoma;
+		color:#385898;
+		/* font-size:12px; */
+		/* padding:0px 2px; */
+}
+a.uline:hover{
+	text-decoration: underline;
+}
+.sign{
+	background-color:#6BA656;
+	background-image: linear-gradient(#6dba51, #6BA656);
+	font-family:Tahoma;
+	color:white;
+	font-size:18px;
+	padding:3px 45px;
+	margin:15px 0px;
+	border-radius: 4px;
+	text-align: center;
+	} 
+.sign:hover{
+	background-image:linear-gradient(#7cd65c,#74b75b);
+}
+
+.last{
+	color:#424040;
+	font-size:13px;
+	margin-bottom:20px;
+}
+.qq{width:3%;
+height:3%;
+margin:8px 0px 0px 5px; 
+}
+.c{
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+}
+p.moto{
+	color:#1b3360;
+	font-size:20px;
+	margin-top:29px;
+	padding:0px;
+}
+ul.lt{ 
+  list-style-type: none;
+  margin:50px 0px 0px 0px;
+  padding: 0;
+  font-size:12px;
+      }
+	  
+ul.lt2{ 
+  list-style-type: none;
+  margin:0px 0px 20px 0px;
+  padding: 0;
+  font-size:12px;
+      }
+a.popo{ 
+text-decoration:none;
+color:#3b5998;
+}
+.space{
+	word-spacing: 10px;
+	}
+.sp{
+	word-spacing: 5px;
+	}
+.me{
+	color:gray;
+    font-size:12px;
+	}
